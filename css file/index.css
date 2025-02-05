@@ -118,7 +118,17 @@ body {
   margin-right: 200px;
   background-color: #FFF8F3;
   border-radius: 10px;
-  padding: 100px 100px 100px 100px;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 300px;
+}
+
+.container-a {
+  border: 1px solid #181818;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .section-tittle {
@@ -131,6 +141,64 @@ body {
 .section-des {
   font-size: 18px;
   color: #757575;
+  margin-top: 30px;
 }
 
 /* about section style */
+
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+ 
+}
+
+.tittle {
+  text-align: center;
+}
+
+/* what i do */
+
+.section-tittle2 {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.section-desc {
+  text-align: center;
+  font-size: 18px;
+  color: #757575;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.about-info-container2{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.skill-container{
+  display: flex;
+  gap: 20px;
+ 
+}
+
+.skill {
+  height: 320px;
+  padding: 20px 15px 15px 15px;
+  box-shadow: 1px 0 5px rgb(177, 174, 174);
+  
+}
+
+.skill-tittle {
+  margin-top: 30px;
+}
+
+.skill-des {
+  margin-top: 30px;
+}
